@@ -13,13 +13,18 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
+var password = document.getElementbyId("pw");
 
 function checkPassword() {
- for (var x=0; x < wordsList.length; x++)
-   if wordsList = x, 
-     print('Okay')
-   
-   else
+ for (var x=0; x < wordsList.length; x++);
+   if password == wordsList(x);
+    print ("Oh hey thats cool good password");
+}
+ else {
+   return False;
+ }
+
+
    
  
 
