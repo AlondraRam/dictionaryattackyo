@@ -23,5 +23,5 @@ function checkPassword() {
       break;
     }
   }
-  document.getElementById("results").innerHTML = "Good flippin job yo";
+  //document.getElementById("results").innerHTML = "Good flippin job yo";
 }
