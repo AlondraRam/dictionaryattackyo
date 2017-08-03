@@ -13,9 +13,10 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-var password = document.getElementById("pw").value;
+
 
 function checkPassword() {
+ var password = document.getElementById("pw").value;
  for (var x=0; x < wordsList.length; x++){
    if (password == wordsList[x]){
     document.getElementById("results").innerHTML = "This password is not strong enough";
