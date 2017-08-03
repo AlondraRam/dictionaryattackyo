@@ -15,6 +15,6 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-  search (dictionary.txt)
+  
 
 }
