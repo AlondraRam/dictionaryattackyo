@@ -13,22 +13,15 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-var password = document.getElementbyId("pw");
+var password = document.getElementbyId("pw").value;
 
 function checkPassword() {
- for (var x=0; x < wordsList.length; x++);
-   if password == wordsList(x);
-    print ("Oh hey thats cool good password");
-}
- else {
-   return False;
+ for (var x=0; x < wordsList.length; x++){
+   if (password == wordsList[x]){
+    document.getElement.Id("results").innerHTML = "This password is not strong enough";
+   }
+  else {
+   document.getElement.Id("results").innetHTML = "Good flippin job yo";
  }
-
-
-   
- 
-
-  
-  
-
+}
 }
