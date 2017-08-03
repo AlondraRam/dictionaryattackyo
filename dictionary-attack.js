@@ -19,8 +19,9 @@ function checkPassword() {
  var password = document.getElementById("pw").value;
  for (var x=0; x < wordsList.length; x++){
    if (password == wordsList[x]){
-    document.getElementById("results").innerHTML = "This password is not strong enough";
+     document.getElementById("results").innerHTML = "This password is not strong enough";
+     break
    }
 }
-  //document.getElementById("results").innerHTML = "Good flippin job yo";
+  document.getElementById("results").innerHTML = "Good flippin job yo";
 }
