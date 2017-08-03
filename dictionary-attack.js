@@ -20,8 +20,6 @@ function checkPassword() {
    if (password == wordsList[x]){
     document.getElementby.Id("results").innerHTML = "This password is not strong enough";
    }
-  else {
-   document.getElementby.Id("results").innetHTML = "Good flippin job yo";
- }
 }
+  document.getElementby.Id("results").innerHTML = "Good flippin job yo";
 }
