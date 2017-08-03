@@ -13,13 +13,13 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-var password = document.getElementbyId("pw").value;
+var password = document.getElementById("pw").value;
 
 function checkPassword() {
  for (var x=0; x < wordsList.length; x++){
    if (password == wordsList[x]){
-    document.getElementby.Id("results").innerHTML = "This password is not strong enough";
+    document.getElementById("results").innerHTML = "This password is not strong enough";
    }
 }
-  document.getElementby.Id("results").innerHTML = "Good flippin job yo";
+  document.getElementById("results").innerHTML = "Good flippin job yo";
 }
