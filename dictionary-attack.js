@@ -22,5 +22,5 @@ function checkPassword() {
     document.getElementById("results").innerHTML = "This password is not strong enough";
    }
 }
-  document.getElementById("results").innerHTML = "Good flippin job yo";
+  //document.getElementById("results").innerHTML = "Good flippin job yo";
 }
