@@ -21,6 +21,10 @@ function checkPassword() {
     if (password == wordsList[x]){
       document.getElementById("results").innerHTML = "This password is not strong enough";
       break;
-    }
+    } 
+     else {
+      document.getElementById("Results").innerHTML = "Great job yo";
+      break;
+     }
   }
 }
