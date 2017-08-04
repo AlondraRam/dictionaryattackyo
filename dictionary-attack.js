@@ -22,5 +22,6 @@ function checkPassword() {
       document.getElementById("results").innerHTML = "This password is not strong enough";
       break;
     }
+    Else = "Cool beans";
   }
 }
